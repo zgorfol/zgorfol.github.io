@@ -126,12 +126,12 @@
     "Run": "Sorsolás",
     "InputDecor": "Érme: 6..9 között ",
     "DobasIdx": {
-      "0": "1: dobás",
-      "1": "2: dobás",
-      "2": "3: dobás",
-      "3": "4: dobás",
-      "4": "5: dobás",
-      "5": "6: dobás"
+      "0": "1. dobás :",
+      "1": "2. dobás :",
+      "2": "3. dobás :",
+      "3": "4. dobás :",
+      "4": "5. dobás :",
+      "5": "6. dobás :"
     }
   },
   "TimeZoneInput": {
