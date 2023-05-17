@@ -127,7 +127,15 @@
     "ShowChoice": "Coins generation",
     "GenerationInfo": "Think of your question before push the run button",
     "Run": "Run",
-    "InputDecor": "Coin 6..9 range."
+    "InputDecor": "Coin 6..9 range.",
+    "DobasIdx": {
+      "0": "1. throw :",
+      "1": "2. throw :",
+      "2": "3. throw :",
+      "3": "4. throw :",
+      "4": "5. throw :",
+      "5": "6. throw :"
+    }
   },
   "TimeZoneInput": {
     "Border": "Choose the birth timezone/capital!"
