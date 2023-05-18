@@ -1,3 +1,6 @@
+# Jiking - Jiking folder nem kell, mivel úgy másolom be
+/jiking/jiking/
+
 # Miscellaneous
 *.class
 *.log
