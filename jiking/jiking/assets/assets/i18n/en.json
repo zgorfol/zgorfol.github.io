@@ -29,9 +29,6 @@
   },
   "BirthInput": {
     "title": "Birth hexagram",
-    "dateTime": "Birth Date & Time :",
-    "location": "Birth place :",
-    "generate": "Generate",
     "numberValidator": " is not a valid number",
     "text": "Birth date, time and timezone.\nIn case of summer time substract 1 hour.",
     "DateTimePicker": {
@@ -45,8 +42,6 @@
       "Male": "Male",
       "Female": "Female"
     },
-    "cityLabelText": "City name",
-    "longitudeOfPlace": "Longitude of place",
     "TextFormField": {
       "labelText": "Longitude of the birth place:",
       "validator": "Please enter some numeric data."
@@ -59,70 +54,24 @@
 
   "TranzitInput": {
     "title": "Tranzit hexagram",
-    "text": "\nHexagram of the current time and \ncurrent place.\n",
-    "generate": "Generate",
-    "refresh": "Refresh"
-  },
-  "ChineseYear": {
-    "title": "Chinese Year Hexagram",
-    "text": "Enter a year to calculate the sixty-year cycle.",
-    "yearLabel": "Year",
-    "generate": "Calculate",
-    "resultLabel": "Year type",
-    "invalidYear": "Invalid year",
-    "rangeError": "Year range: {min} - {max}",
-    "debugPrint": "Print list (debug)",
-    "result": "{year} {element} {animal} year",
-    "elements": {
-      "A": "Wood",
-      "B": "Wood",
-      "C": "Fire",
-      "D": "Fire",
-      "E": "Earth",
-      "F": "Earth",
-      "G": "Metal",
-      "H": "Metal",
-      "I": "Water",
-      "J": "Water"
-    },
-    "animals": {
-      "a": "Rat",
-      "b": "Ox",
-      "c": "Tiger",
-      "d": "Rabbit",
-      "e": "Dragon",
-      "f": "Snake",
-      "g": "Horse",
-      "h": "Goat",
-      "i": "Monkey",
-      "j": "Rooster",
-      "k": "Dog",
-      "l": "Pig"
-    }
+    "text": "\nHexagram of the current time and \ncurrent place.\n"
   },
 
   "SavedHexas": {
     "title": "Saved hexagrams",
-    "snack": "Please, select an item first!",
-    "empty": "No saved hexagrams yet."
+    "snack": "Please, select an item first!"
   },
 
   "CompareHexas": {
     "title": "Compare",
     "first": "First hexagram",
     "second": "Second hexagram",
-    "snack": "Please, select both different hexagrams first!",
-    "clear": "Clear hexagrams",
-    "selectHexagram": "Select a hexagram",
-    "birth": "Birth",
-    "tranzit": "Transit",
-    "saved": "Saved"
+    "snack": "Please, select both different hexagrams first!"
   },
   "Main": {
     "settings": "Settings",
     "AppVersion": "App version",
-    "About": "About",
-    "Back": "Back"
+    "About": "About"
   },
   "HexaView": {
     "typeStr": {
@@ -133,13 +82,6 @@
       "4": "Future seed",
       "5": "Future central"
     },
-    "iconStr": {
-      "0": "Show Seed/Central",
-      "1": "Modify date/time",
-      "2": "Hexagram description block selection",
-      "3": "Save hexagram"
-    },
-    "title": "hexagram",
     "hintText": "Enter the name of the hexagram",
     "Save": "Ok",
     "Cancel": "Cancel",
@@ -153,11 +95,6 @@
         "4": "Birth",
         "5": "Situation",
         "6": "Advice"
-    },
-    "szovegChoiceSelect": {
-      "0": "Birth",
-      "1": "Tranzit",
-      "2": "Save"
     },
     "szovegChoiceFind": {
       "0": "THE IMAGE:",
@@ -184,8 +121,7 @@
   },
   "Tools": {
     "title": "Calculator",
-    "Desc": "Type the coin numbers:",
-    "kerdesTitle": "Question:",
+    "Desc": "You can type coin numbers and generate hexagram.",
     "kerdesHintText": "Enter your question!",
     "hintText": "6,7,8,9 only possible number.",
     "ShowChoice": "Coins generation",
@@ -207,14 +143,11 @@
   "Gps": {
     "Service": "Location services are disabled.",
     "Permission": "Location permissions are denied",
-    "DeniedForever": "Location permissions are permanently denied, application usage restricted.",
-    "PositionUnavailable": "GPS position is unavailable.",
-    "Open": "Settings"
+    "DeniedForever": "Location permissions are permanently denied, application usage restricted."
   },
   "Appendix": {
     "Title": "Appendix",
     "HexaNum": "Number of Hexagram",
-    "HexaName": "Hexagram name",
     "HintText": "1..64 possible",
     "Tabs": {
       "0": "Houses",
@@ -262,7 +195,7 @@
     "Jellem": {
       "10": "It shows the basics of character, harmonious transformation, the right way of conducting and organizing habits. Reaches your goal.",
       "15": "The treatment of character and the desire to train character. Respect and illuminate.",
-      "24": "It shows the core of character, which leads to self-knowledge and self-examination. It is small, yet different from external things.",
+      "24": "A jellem törzsét mutatja, amely önismerethez és önvizsgálathoz vezet. Kicsi, mégis eltér a külső dolgoktól.",
       "32": "It shows the solidity of character and serves the unity of character. It refers to a multifaceted and unblemished experience.",
       "41": "It shows the nurturing, restraining, and dominating of character that keeps the damage at bay. The difficulty is followed by the easy.",
       "42": "It shows the abundance and fullness of character and promotes the useful. It indicates fullness without artificial grips.",
