@@ -29,6 +29,9 @@
   },
   "BirthInput": {
     "title": "Születési hexagram",
+    "dateTime": "Születési idő :",
+    "location": "Születési hely :",
+    "generate": "Generálás",
     "numberValidator": " ez nem érvényes szám",
     "text": "Születési dátum, idő és időzóna.\nNyári időszámítás esetén 1 órát le kell vonni.",
     "DateTimePicker": {
@@ -42,6 +45,8 @@
       "Male": "Férfi",
       "Female": "Nő"
     },
+    "cityLabelText": "Város neve",
+    "longitudeOfPlace": "Hosszúsági adat",
     "TextFormField": {
       "labelText": "Hosszúsági adata a születési helynek:",
       "validator": "Ügyeljen a helyes szám adatok bevitelére!"
@@ -53,22 +58,68 @@
   },
   "TranzitInput": {
     "title": "Tranzit hexagram",
-    "text": "\nHexagram a mostani időre és \na jelenlegi helyre.\n"
+    "text": "\nHexagram a mostani időre és \na jelenlegi helyre.\n",
+    "generate": "Generálás",
+    "refresh": "Frissítés"
+  },
+  "ChineseYear": {
+    "title": "Kínai év hexagram",
+    "text": "Adja meg az évet a hatvanas ciklus kiszámításához.",
+    "yearLabel": "Év",
+    "generate": "Számítás",
+    "resultLabel": "Év típusa",
+    "invalidYear": "Érvénytelen év",
+    "rangeError": "Év tartománya: {min} - {max}",
+    "debugPrint": "Lista kiírása (debug)",
+    "result": "{year} {element}-{animal} éve",
+    "elements": {
+      "A": "Fa",
+      "B": "Fa",
+      "C": "Tűz",
+      "D": "Tűz",
+      "E": "Föld",
+      "F": "Föld",
+      "G": "Fém",
+      "H": "Fém",
+      "I": "Víz",
+      "J": "Víz"
+    },
+    "animals": {
+      "a": "Patkány",
+      "b": "Bivaly",
+      "c": "Tigris",
+      "d": "Nyúl",
+      "e": "Sárkány",
+      "f": "Kígyó",
+      "g": "Ló",
+      "h": "Kecske",
+      "i": "Majom",
+      "j": "Kakas",
+      "k": "Kutya",
+      "l": "Disznó"
+    }
   },
   "SavedHexas": {
     "title": "Mentett hexagramok",
-    "snack": "Kérem, válasszon ki egy tételt!"
+    "snack": "Kérem, válasszon ki egy tételt!",
+    "empty": "Nincs még mentett hexagram."
   },
   "CompareHexas": {
     "title": "Összehasonlítás",
     "first": "Első hexagram",
     "second": "Második hexagram",
-    "snack": "Kérem, válasszon ki két különböző hexagramot először!"
+    "snack": "Kérem, válasszon ki két különböző hexagramot először!",
+    "clear": "Hexagramok törlése",
+    "selectHexagram": "Válasszon egy hexagramot",
+    "birth": "Születési",
+    "tranzit": "Tranzit",
+    "saved": "Mentett"
   },
   "Main": {
     "settings": "Beállítások",
     "AppVersion": "App version",
-    "About": "Leírás"
+    "About": "Leírás",
+    "Back": "Vissza"
   },
   "HexaView": {
     "typeStr": {
@@ -79,6 +130,13 @@
       "4": "Jövő mag",
       "5": "Jövő centrál"
     },
+    "iconStr": {
+      "0": "Mag/Centrál mutatása",
+      "1": "Időpont módosítása",
+      "2": "Hexagram szövegblokk kiválasztása",
+      "3": "Hexagram mentése"
+    },
+    "title": "hexagram",
     "hintText": "Üsse be a mentendő hexagram nevét",
     "Save": "Rendben",
     "Cancel": "Vissza",
@@ -92,6 +150,11 @@
         "4": "Születési",
         "5": "Helyzet",
         "6": "Tanács"
+    },
+    "szovegChoiceSelect": {
+      "0": "Születési",
+      "1": "Tranzit",
+      "2": "Mentés"
     },
     "szovegChoiceFind": {
       "0": "A kép:",
@@ -118,7 +181,8 @@
   },
   "Tools": {
     "title": "Kalkulátor",
-    "Desc": "Érme beviteli és generálási lehetőség",
+    "Desc": "Érme dobások:",
+    "kerdesTitle": "Kérdés:",
     "kerdesHintText": "Írja be a kérdését!",
     "hintText": "6,7,8,9 elfogadható csak.",
     "ShowChoice": "Érme sorsolás",
@@ -140,11 +204,14 @@
   "Gps": {
     "Service": "Helymeghatározás szolgáltatás letiltva.",
     "Permission": "Helymeghatározás engedély letiltva.",
-    "DeniedForever": "Helymeghatározás engedély állandóan letiltva, applikáció működése korlátozott."
+    "DeniedForever": "Helymeghatározás engedély állandóan letiltva, applikáció működése korlátozott.",
+    "PositionUnavailable": "A GPS pozíció nem érhető el.",
+    "Open": "Beállítások"
   },
   "Appendix": {
     "Title": "Függelék",
     "HexaNum": "Hexagram száma",
+    "HexaName": "Hexagram neve",
     "HintText": "1..64 lehetséges",
     "Tabs": {
       "0": "Házak",
@@ -153,7 +220,7 @@
       "3": "Társ",
       "4": "Közösség",
       "5": "Idő",
-      "6": "Keres"
+      "6": "Keresés"
     },
     "House": {
       "0": {
@@ -233,6 +300,6 @@
       "20": "8. hónap (szeptember-október)",
       "23": "9. hónap (október-november)",
       "2": "10. hónap (november-december)"
-    }
+    } 
   }
 }
